@@ -2,7 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+}
+.h1{
+  padding-left: 20px;
+  background-color: grey;
+  align-items: left;
+  font-size: 25px
 }
 header{
     width: 100%;
@@ -17,10 +23,7 @@ header{
     position: fixed;
 }
 nav{
-    display: flex;
-    
-    
-  
+    display: flex; 
 }
 nav li{
     list-style: none;
