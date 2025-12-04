@@ -1,0 +1,51 @@
+h1 {
+    
+    background-color: rgb(255, 254, 254);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+
+}
+.container-movie1{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.scroll-movie {
+    width: 100%;
+    height: 300px;
+    grid-auto-flow: column;
+    display: grid;
+    gap: 10px;
+    overflow-x: auto;
+    grid-auto-columns: 250px;
+    background-color: white;
+    
+
+}
+
+.scroll-movie::-webkit-scrollbar {
+    display: none;
+}
+
+.card:hover{
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+.card img{
+    width: 100%;
+    height: 80%;
+    border-radius:10px;
+} 
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
